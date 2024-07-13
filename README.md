@@ -1,8 +1,5 @@
-# React + Vite
+stage 3 task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The task was to create products in timbu http://timbu.cloud/ and fetch it and use it in our stage 2 task that I created an e-commerce store
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+How to use timbu api https://docs.timbu.cloud/api/intro
