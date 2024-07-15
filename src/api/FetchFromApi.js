@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const iphones_Url = "/api/products?organization_id=59bc18faa0544ed29897b6a3ed522e95&Appid=WKSL7B10OGTLAOL&Apikey=42581df2823c4741a5dc9ca8283529fa20240712123035745664" 
+const iphones_Url = `/api/products?organization_id=${import.meta.env.VITE_REACT_ORG_ID}&Appid=${import.meta.env.VITE_REACT_APP_ID}&Apikey=${import.meta.env.VITE_REACT_API_KEY}`
 
 
 
@@ -9,6 +9,6 @@ export const fetchData = async() => {
     return response.data.items
 }
 export const fetchDataId = async(id) => {
-    const response = await axios.get(`/api/products/${id}?organization_id=59bc18faa0544ed29897b6a3ed522e95&Appid=WKSL7B10OGTLAOL&Apikey=42581df2823c4741a5dc9ca8283529fa20240712123035745664`)
+    const response = await axios.get(`/api/products/${id}?organization_id=${import.meta.env.VITE_REACT_ORG_ID}&Appid=${import.meta.env.VITE_REACT_APP_ID}&Apikey=${import.meta.env.VITE_REACT_API_KEY}`)
     return response
 }
